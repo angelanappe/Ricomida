@@ -1,0 +1,125 @@
+/*Cabin*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*Lobster*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cabin-regular {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.cabin-bold {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    /* css para centrar el texto en disp.móviles */
+    .titulo h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 10pt;
+        }
+}
+
+@media (max-width: 768px) {
+    /* css para centrar el texto en disp.móviles */
+    #textopreparacion {
+        text-align: left;
+        font-size: 16pt; 
+    }
+
+    #textomasa {
+        text-align: left;
+        font-size: 16pt; 
+    }
+
+    #titulo_ingredientes {
+        text-align: left;
+        font-size: 16pt; 
+    }
+
+    #titulo_preparacion {
+        text-align: left;
+        font-size: 16pt; 
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ricomida esquina sup izq*/
+#ricomida {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37pt;
+}
+
+nav {
+    width: 100%;
+}
+
+header {
+    font-family: "Cabin", sans-serif;
+    color: #FFFFFF;
+}
+
+header nav {
+    background-color: #373A3C;
+}
+
+/*css para la primera imagen*/
+.img-pizza {
+    width: 100%; 
+    max-height: 500px;
+}
+
+.titulo h1 {
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+}
+
+.ingredientes {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+.ricomida_final {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 30pt;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37pt;
+}
+
+.rojo {
+    color: red;
+}
+
